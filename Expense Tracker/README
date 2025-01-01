@@ -1,0 +1,20 @@
+Expense Tracker
+A command-line application to manage expenses, demonstrating C++ programming skills including file handling, dynamic memory, and modular design.
+
+Features
+Add new expenses with category, amount, and date.
+View all expenses in a tabular format.
+Delete expenses by their unique ID.
+Save and load expense data using file handling.
+
+Open a terminal or command prompt in the project folder and run the following command:
+g++ -o expense_tracker main.cpp
+This will generate an executable file named expense_tracker.
+
+After compiling, execute the program with:
+./expense_tracker   # For Linux/Mac
+expense_tracker.exe # For Windows
+
+Use the menu options to add, view, or delete expenses.
+Data is automatically saved to expenses.txt.
+
